@@ -39,6 +39,7 @@ body{
     position: absolute;
     top: 50%;
     transform: translate(0,-50%);
+   overflow-y: scroll;
 }
 
  
@@ -57,7 +58,9 @@ body{
     outline: none;
     border-color: #2c3e50;
 }
+
 .flex-top{
+/* position: fixed; */
     display: flex;
     margin-top: 2rem;
     justify-content: space-around;
@@ -66,10 +69,6 @@ body{
     border: none;
     background: none;
 
-}
-.taskAdd-container{
-overflow: scroll;
-height: 53rem;
 }
 
 
@@ -189,6 +188,7 @@ height: 4rem;
 
 }
 
+
 ul li{
     list-style: none;
     font-size: 1.9rem;
@@ -198,6 +198,10 @@ ul li{
     margin-left: 2rem;
     position: relative;
     margin-right: 1rem;
+    border-bottom: 2px solid #2c3e50;
+}
+ul li:first-child{
+border-top: 2px solid #2c3e50;
 }
 
 ul li::before{
@@ -245,7 +249,8 @@ ul li span:hover{
 }
 
 #list-container{
-    margin-top: 1rem;
+    margin-top: .5rem;
+    overflow:scroll;
 }
 
 

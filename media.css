@@ -6,7 +6,10 @@
 
 {
 
-    body{
+    *{
+        overflow-x: hidden;
+    }
+    .con{
         overflow-x: hidden;
     }
  .app-main{
@@ -20,6 +23,15 @@
  } 
  .taskinput{
     width: 25rem;
+ }
+ .taskleft{
+    font-size: 1.2rem;
+    width: 26rem;
+    margin-left: 9rem;
+ }
+ .footer{
+     width: 42rem;
+     font-size: 2.4rem;
  }
 }
 
@@ -40,5 +52,14 @@
     }
     .taskinput{
         width: 18rem;
+     }
+     .taskleft{
+        font-size: 1.1rem;
+        width: 24rem;
+        margin-left: 6rem;
+     }
+     .footer{
+        width: 34rem;
+        font-size: 1.8rem;
      }
 }
