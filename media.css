@@ -1,0 +1,44 @@
+
+
+
+/* For Mobile Portrait View */
+@media (max-width:38em) 
+
+{
+
+    body{
+        overflow-x: hidden;
+    }
+ .app-main{
+    width: 45rem;
+    overflow-x: hidden;
+
+ }  
+ .headline{
+    margin-top: 3rem;
+    font-size: 3.5rem;
+ } 
+ .taskinput{
+    width: 25rem;
+ }
+}
+
+
+@media (max-width: 30em){
+    
+    .app-main{
+     
+        width: 35em;
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .headline{
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+    .taskinput{
+        width: 18rem;
+     }
+}
